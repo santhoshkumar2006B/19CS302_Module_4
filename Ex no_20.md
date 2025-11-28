@@ -4,23 +4,37 @@
 To write a C program to convert the given string to lowercase without using string functions.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+1. Start. 
+2. Define the required variable. 
+3. Convert the string to lowercase. 
+4. Read the value using scanf. 
+5. Print out the answer. 
+6. End. 
 
 ## Program:
 ```
 /*
 C program to convert the given string to lowercase without using string functions.
-Developed by: 
-RegisterNumber:  
+Developed by: santhosh kumar B
+RegisterNumber:  212223060249
 */
+#include <stdio.h> 
+int main() { 
+    char str[100]; 
+    int i = 0; 
+    scanf("%s", str);   
+    while (str[i] != '\0') { 
+        if (str[i] >= 'A' && str[i] <= 'Z') { 
+            str[i] = str[i] + 32;        } 
+        i++;    } 
+    printf("Lowercase string: %s\n", str); 
+    return 0; 
+} 
 ```
 
 ## Output:
 
+<img width="453" height="171" alt="image" src="https://github.com/user-attachments/assets/df49a1b6-a773-40b4-9c5f-cdeb60ff0f9d" />
 
 
 ## Result:
